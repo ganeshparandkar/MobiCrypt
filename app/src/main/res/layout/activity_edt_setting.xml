@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc1"
+    tools:context=".main_menuModels.edtSetting">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:background="@drawable/toolbar_setting_chagepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Setting"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="357dp"
+        android:layout_height="489dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="68dp"
+        tools:layout_marginEnd="13dp">
+        <TextView
+            android:id="@+id/changepassword"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:text="Privacy" />
+
+        <Button
+            android:id="@+id/changepass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/changepassword"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:background="#b4b4b4"
+            android:text="  Set Password"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/gethelp"
+            android:textColor="#ffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/changepass"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:text="Get Help" />
+
+        <Button
+            android:id="@+id/contactus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/gethelp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="4dp"
+            android:background="#b4b4b4"
+            android:text="  Contact Us"
+            android:textAlignment="viewStart" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

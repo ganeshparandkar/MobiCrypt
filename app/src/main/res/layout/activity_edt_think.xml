@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main_menuModels.edtThink">
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:hint="New Notes Password"
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:layout_marginTop="140dp"
+        android:hint="New Messages Password"
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:layout_marginTop="240dp"
+        android:hint="New Contacts Password"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:layout_marginTop="340dp"
+        android:hint="New Image Password"
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="90dp"
+        android:text="Save"
+        android:layout_marginTop="450dp"
+        />
+    <Button
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="45dp"
+        android:text="Cancel"
+        android:layout_marginTop="450dp"
+        />
+</RelativeLayout>

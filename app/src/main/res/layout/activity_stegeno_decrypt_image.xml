@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t3"
+    tools:context=".Stegonography.Stegenomain.Stegeno_decryptImage">
+
+
+<RelativeLayout
+    android:id="@+id/imageviewlayoutdecoding"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="15dp">
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
+    <Button
+        android:id="@+id/choose_image_button"
+        android:layout_width="139dp"
+        android:layout_height="60dp"
+        android:background="@drawable/main_page_stegenography_buttonbackground"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageviewlayoutdecoding"
+        android:layout_marginTop="10dp"
+        android:text="Choose Image" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_image_button"
+        android:layout_marginTop="15dp"
+        android:textColor="#e0c6c0c0"
+        android:text="Secret Key - "
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/secret_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:textAlignment="center"
+        android:ems="10"
+        android:hint="Enter secret key"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="10dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e0c6c0c0"
+        android:text="Message -"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/secret_key"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+<ScrollView
+    android:id="@+id/scrollviewdecoding"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_below="@+id/textView2">
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Your message"
+        android:textSize="20dp"
+        android:inputType="none"
+        android:editable="false"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="10dp"/>
+
+</ScrollView>
+
+
+
+    <Button
+        android:id="@+id/decode_button"
+        android:textColor="#ffffff"
+        android:background="@drawable/main_page_stegenography_buttonbackground"
+        android:layout_width="111dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/scrollviewdecoding"
+        android:layout_centerHorizontal="true"
+        android:text="Decode" />
+
+    <TextView
+        android:id="@+id/whether_decoded"
+
+        android:layout_width="114dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="306dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "74956009360",
+    "firebase_url": "https://mobicrypt-5a88b.firebaseio.com",
+    "project_id": "mobicrypt-5a88b",
+    "storage_bucket": "mobicrypt-5a88b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:74956009360:android:3d4eabdfe3a383ca",
+        "android_client_info": {
+          "package_name": "comlovnsjhbslo.example.ganes.mobicrypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "74956009360-64d4q30eusje7ji83ojk91ml3654ctfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comlovnsjhbslo.example.ganes.mobicrypt",
+            "certificate_hash": "84b7161063832d297edcb5ca88f1e906030d3ed3"
+          }
+        },
+        {
+          "client_id": "74956009360-nn8pfaiuniqfo4mjaoag8b2ic25vlp0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVOjgm6M3zyQ4xuA0oTcHzkZV3nPVmTU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "74956009360-nn8pfaiuniqfo4mjaoag8b2ic25vlp0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

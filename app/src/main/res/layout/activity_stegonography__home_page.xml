@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t3"
+    tools:context=".Stegonography.Stegenomain.Stegonography_Home_page">
+
+    <TextView
+        android:id="@+id/heading_stego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="259dp"
+        android:fontFamily="serif"
+        android:text="Steganography"
+        android:textColor="#ffffe5"
+        android:textSize="35dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading_stego"
+        android:text="Smart way to hide information"
+        android:layout_centerHorizontal="true"
+        android:textColor="#cdd0f2f2"/>
+
+    <Button
+        android:id="@+id/encode_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/heading_stego"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/main_page_stegenography_buttonbackground"
+        android:text="Encode"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/decode_button"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/heading_stego"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="182dp"
+        android:background="@drawable/main_page_stegenography_buttonbackground"
+        android:text="Decode"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

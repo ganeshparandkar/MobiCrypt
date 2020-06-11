@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sms.resultviewmessage">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/viewmessagetoolbar"
+        android:background="@drawable/toolbar_message_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Messages"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+
+        android:id="@+id/resultmsg_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="64dp"
+        android:background="#4291fa7f"
+        android:hint="Type your title here..."
+        android:padding="10dp"
+        android:textSize="20dp"/>
+    <View
+        android:layout_below="@+id/note_heading"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#58000000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginBottom="1dp"
+        android:background="#4291fa7f">
+
+        <TextView
+            android:id="@+id/resultmsg_Content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:hint="Here is your Description"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:textSize="20dp" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/resultdeletemsg"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/circular_msg_addbtn"
+        android:src="@drawable/deleteblack" />
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Signup.activity1"
+    android:background="@drawable/fina">
+
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginBottom="103dp"
+            android:background="@drawable/rounded"
+            android:text="Sign In"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="209dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="103dp"
+            android:background="@drawable/rounded"
+            android:text="Register"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="433dp" />
+
+        <TextView
+            android:id="@+id/heading_Mobicrypt"
+            android:layout_width="207dp"
+            android:layout_height="62dp"
+            android:layout_above="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:text="MobiCrypt"
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="28dp"
+            android:textColor="#ffffff"
+            android:textSize="40dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="181dp"
+            android:layout_height="41dp"
+            android:layout_above="@+id/Login"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="163dp"
+            android:layout_marginBottom="133dp"
+            android:text="Easiest way to"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="289dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="181dp"
+            android:layout_height="41dp"
+            android:layout_above="@+id/signup"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="163dp"
+            android:layout_marginBottom="102dp"
+            android:text="be secured."
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="318dp" />
+
+
+</RelativeLayout>

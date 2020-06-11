@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".check_password_intents.checkPassNotes"
+    android:background="@drawable/abc1">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:gravity="center"
+        android:text="Enter Password\n to Open Messages"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/checkpassmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="#7e7e7e"
+        android:ems="12"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textColorHint="#bababa"
+        tools:ignore="RtlCompat"
+        android:inputType="numberPassword"/>
+
+    <Button
+        android:id="@+id/btngotomessage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkpassmessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/rounded"
+        android:text="Open"
+        android:textColor="#ffffff" />
+</RelativeLayout>
